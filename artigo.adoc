@@ -1,0 +1,64 @@
+= Uso da família Intel Xeon em processamento paralelo
+:doctype: article
+:pdf-theme: sbc-theme.yml
+:sectnums:
+
+[.text-center]
+*Mateus C. Barreto, Yuri G. C. Delgado*
+
+[.text-center]
+Instituto de Ciências Exatas e Naturais – Universidade Federal do Pará (UFPA)
+
+[.text-center]
+Belém – PA – Brazil
+
+[.emails]
+`mailto:mateus.cezario.barreto@gmail.com[,role=emails], mailto:yuri.delgado@icen.ufpa.br[,role=emails]`
+
+[.text-justified]
+*_Resumo_*. _Este artigo apresenta uma revisão da arquitetura dos processadores
+Intel Xeon e da proposta de oferecer desempenho, escalabilidade, eficiência
+energética e segurança aprimorados. A partir dessas condições, são
+analisadas formas pelas quais ambientes de execução paralela e programação
+concorrente se beneficiam dos recursos oferecidos por esses processadores._
+
+== Introdução
+
+Intel Xeon é uma família de processadores dirceionada a atender o
+processamento de larga escala, como em servidores. Diferentemente dos Intel Core e
+Intel Pentium, voltados para uso diário e na esfera produtiva, os Intel Xeon possuem
+mais núcleos, canais de memória e pistas PCI Express. Além disso, podem operar em
+sistemas multi-socket, contendo mais de um processador que se comunicam pela
+camada de comunicação Intel UltraPath Interconnect (Intel UPI).
+
+Por exemplo, o Intel Xeon Silver 4110 (um modelo de desempenho moderado)
+possui duas vezes mais núcleos (de 4 para 8) e três vezes mais canais de memória (de 2
+para 6) que o Intel Core I7-6700 (um modelo de alto desempenho da classe I7) [Intel,
+s.d], ambos utilizando a microarquitetura Skylake. A quantidade ampliada de núcleos da
+família Intel Xeon contribui para uso em servidores e para otimizar a execução de
+linguagens e ambientes de programação que se valem de processamento paralelizado e
+concorrente, como a máquina virtual do Erlang (”Bogdan/Björn’s Erlang Abstract
+Machine” ou BEAM), sobre a qual instruções da linguagem Elixir são executadas.
+
+As gerações mais recentes também se destacam pela integração de aceleradores
+de hardware para cargas de trabalho crescentes, especialmente em IA, e um forte foco
+na eficiência energética (desempenho por watt), contribuindo para a redução do custo
+total de propriedade (TCO) em data centers e na borda
+
+.Família intel xeon scalable
+image::scalable.svg[]
+
+== Arquitetura
+
+Modelos mais recentes dos Intel Xeon usam o Intel Ultra Path Interconnect
+(UPI) como arquitetura de comunicação. A arquitetura UPI sucede a antiga Intel
+QuickPath Interconnection (QPI), sendo uma evolução da proposta de descentralizar os
+caminhos de comunicacão, como forma de entregar menores laências de transferência
+de dados e maior banda [INTEL, 2009].
+
+A proposta da UPI e da QPI surge como solução para limitações de ainda outro
+modelo mais antigo, o Front-side Bus. Como é possível ver na imagem, esse modelo de
+comunicação oferece uma interface com um canal bidirecional para conectar as
+unidades de processamento e a placa mãe. Conquanto os núcleos contem com seus
+próprios canais de comunicação com a interface, a comunicação com o chipset é
+inerentemente síncrona.

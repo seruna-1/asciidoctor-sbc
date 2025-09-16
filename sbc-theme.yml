@@ -1,0 +1,26 @@
+extends: default
+page:
+    margin: [3.5cm, 3cm, 2cm, 3cm]
+footer:
+    font-size: 12
+    height: 30
+    recto:
+        right:
+            content: '{page-number}'
+    verso:
+        left:
+            content: ~
+        right:
+            content: '{page-number}'
+role:
+    emails:
+        text-align: center
+        font-color: #000000
+heading:
+    h2-font-size: 12
+image:
+    align: center
+    width: 85%
+    caption:
+        align: center
+
