@@ -1,3 +1,8 @@
 = Exemplo de artigo escrito em asciidoc no estilo  da SBC
 
 Estilo para o asciidoctor-pdf em [sbc-theme.yml].
+
+[source]
+----
+asciidoctor-pdf artigo.adoc
+----

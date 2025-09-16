@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1200"
+   height="1200"
+   viewBox="0 0 317.49999 317.5"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="scalable.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.61290685"
+     inkscape:cx="630.60153"
+     inkscape:cy="537.60208"
+     inkscape:window-width="1275"
+     inkscape:window-height="852"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="44.871483"
+       height="13.278292"
+       x="110.34642"
+       y="136.43694" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="121.00842"
+       y="146.11545"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="121.00842"
+         y="146.11545">Núcleo</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-73"
+       width="44.871483"
+       height="13.278292"
+       x="110.4054"
+       y="79.577454" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="121.06741"
+       y="89.255951"
+       id="text1-61"><tspan
+         sodipodi:role="line"
+         id="tspan1-29"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="121.06741"
+         y="89.255951">PCIe 3.0</tspan></text>
+    <g
+       id="layer1-4"
+       transform="translate(106.04023,-41.610271)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-78"
+         width="44.871483"
+         height="13.278292"
+         x="110.34642"
+         y="136.43694" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+         x="117.0402"
+         y="145.58125"
+         id="text1-45"><tspan
+           sodipodi:role="line"
+           id="tspan1-0"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+           x="117.0402"
+           y="145.58125">Canal DDR4</tspan></text>
+    </g>
+    <g
+       id="layer1-4-2"
+       transform="translate(106.05054,-28.309393)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-78-6"
+         width="44.871483"
+         height="13.278292"
+         x="110.34642"
+         y="136.43694" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+         x="117.0402"
+         y="145.58125"
+         id="text1-45-6"><tspan
+           sodipodi:role="line"
+           id="tspan1-0-4"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+           x="117.0402"
+           y="145.58125">Canal DDR4</tspan></text>
+    </g>
+    <g
+       id="layer1-4-7"
+       transform="translate(106.07082,-15.020941)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-78-1"
+         width="44.871483"
+         height="13.278292"
+         x="110.34642"
+         y="136.43694" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+         x="117.0402"
+         y="145.58125"
+         id="text1-45-7"><tspan
+           sodipodi:role="line"
+           id="tspan1-0-2"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+           x="117.0402"
+           y="145.58125">Canal DDR4</tspan></text>
+    </g>
+    <g
+       id="layer1-4-1"
+       transform="translate(-60.276077,-42.411513)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-78-0"
+         width="44.871483"
+         height="13.278292"
+         x="110.34642"
+         y="136.43694" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+         x="117.0402"
+         y="145.58125"
+         id="text1-45-61"><tspan
+           sodipodi:role="line"
+           id="tspan1-0-5"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+           x="117.0402"
+           y="145.58125">Canal DDR4</tspan></text>
+    </g>
+    <g
+       id="layer1-4-2-9"
+       transform="translate(-60.265767,-29.110635)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-78-6-4"
+         width="44.871483"
+         height="13.278292"
+         x="110.34642"
+         y="136.43694" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+         x="117.0402"
+         y="145.58125"
+         id="text1-45-6-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-0-4-0"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+           x="117.0402"
+           y="145.58125">Canal DDR4</tspan></text>
+    </g>
+    <g
+       id="layer1-4-7-9"
+       transform="translate(-60.245487,-15.822183)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-78-1-1"
+         width="44.871483"
+         height="13.278292"
+         x="110.34642"
+         y="136.43694" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+         x="117.0402"
+         y="145.58125"
+         id="text1-45-7-7"><tspan
+           sodipodi:role="line"
+           id="tspan1-0-2-7"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+           x="117.0402"
+           y="145.58125">Canal DDR4</tspan></text>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7"
+       width="44.871483"
+       height="13.278292"
+       x="155.26213"
+       y="136.39931" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="165.9241"
+       y="146.07782"
+       id="text1-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="165.9241"
+         y="146.07782">Cache</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-2"
+       width="44.871483"
+       height="13.278292"
+       x="110.47788"
+       y="149.85025" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="121.13988"
+       y="159.52876"
+       id="text1-6"><tspan
+         sodipodi:role="line"
+         id="tspan1-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="121.13988"
+         y="159.52876">Núcleo</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7-8"
+       width="44.871483"
+       height="13.278292"
+       x="155.39357"
+       y="149.81262" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="166.05557"
+       y="159.49113"
+       id="text1-0-7"><tspan
+         sodipodi:role="line"
+         id="tspan1-9-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="166.05557"
+         y="159.49113">Cache</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-75"
+       width="44.871483"
+       height="13.278292"
+       x="110.47576"
+       y="163.16083" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="121.13776"
+       y="172.83936"
+       id="text1-9"><tspan
+         sodipodi:role="line"
+         id="tspan1-2"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="121.13776"
+         y="172.83936">Núcleo</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7-2"
+       width="44.871483"
+       height="13.278292"
+       x="155.39146"
+       y="163.12321" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="166.05344"
+       y="172.80173"
+       id="text1-0-8"><tspan
+         sodipodi:role="line"
+         id="tspan1-9-97"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="166.05344"
+         y="172.80173">Cache</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-2-3"
+       width="44.871483"
+       height="13.278292"
+       x="110.60722"
+       y="176.57416" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="121.26921"
+       y="186.25267"
+       id="text1-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan1-1-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="121.26921"
+         y="186.25267">Núcleo</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7-8-2"
+       width="44.871483"
+       height="13.278292"
+       x="155.5229"
+       y="176.53651" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="166.18491"
+       y="186.21503"
+       id="text1-0-7-9"><tspan
+         sodipodi:role="line"
+         id="tspan1-9-9-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="166.18491"
+         y="186.21503">Cache</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-8"
+       width="44.871483"
+       height="13.278292"
+       x="110.5217"
+       y="190.29868" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="121.18369"
+       y="199.97719"
+       id="text1-4"><tspan
+         sodipodi:role="line"
+         id="tspan1-5"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="121.18369"
+         y="199.97719">Núcleo</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7-0"
+       width="44.871483"
+       height="13.278292"
+       x="155.43742"
+       y="190.26105" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="166.09938"
+       y="199.93956"
+       id="text1-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan1-9-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="166.09938"
+         y="199.93956">Cache</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-2-1"
+       width="44.871483"
+       height="13.278292"
+       x="110.65316"
+       y="203.71199" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="121.31515"
+       y="213.3905"
+       id="text1-6-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-1-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="121.31515"
+         y="213.3905">Núcleo</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7-8-3"
+       width="44.871483"
+       height="13.278292"
+       x="155.56886"
+       y="203.67436" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="166.23087"
+       y="213.35287"
+       id="text1-0-7-2"><tspan
+         sodipodi:role="line"
+         id="tspan1-9-9-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="166.23087"
+         y="213.35287">Cache</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-75-6"
+       width="44.871483"
+       height="13.278292"
+       x="110.65104"
+       y="217.02257" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="121.31303"
+       y="226.7011"
+       id="text1-9-1"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-5"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="121.31303"
+         y="226.7011">Núcleo</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7-2-5"
+       width="44.871483"
+       height="13.278292"
+       x="155.56674"
+       y="216.98495" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="166.22873"
+       y="226.66347"
+       id="text1-0-8-4"><tspan
+         sodipodi:role="line"
+         id="tspan1-9-97-7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="166.22873"
+         y="226.66347">Cache</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-2-3-6"
+       width="44.871483"
+       height="13.278292"
+       x="110.7825"
+       y="230.4359" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="121.44449"
+       y="240.11441"
+       id="text1-6-6-5"><tspan
+         sodipodi:role="line"
+         id="tspan1-1-1-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="121.44449"
+         y="240.11441">Núcleo</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-2-3-6-3"
+       width="89.74295"
+       height="12.820419"
+       x="110.82855"
+       y="243.71886" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="142.49052"
+       y="252.96568"
+       id="text1-6-6-5-5"><tspan
+         sodipodi:role="line"
+         id="tspan1-1-1-6-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="142.49052"
+         y="252.96568">Intel UPI</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-2-3-6-3-7"
+       width="89.74295"
+       height="43.345234"
+       x="110.38933"
+       y="92.992447" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="127.09415"
+       y="118.72267"
+       id="text1-6-6-5-5-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-1-1-6-6-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="127.09415"
+         y="118.72267">Agente de sistema</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7-8-2-9"
+       width="44.871483"
+       height="13.278292"
+       x="155.69818"
+       y="230.39825" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       x="166.3602"
+       y="240.07677"
+       id="text1-0-7-9-3"><tspan
+         sodipodi:role="line"
+         id="tspan1-9-9-3-7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+         x="166.3602"
+         y="240.07677">Cache</tspan></text>
+    <path
+       style="fill:#000000;stroke-width:0.799999"
+       d="m 203.2162,104.14426 h 18.23874"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.799999;stroke-opacity:1"
+       d="m 200.58139,102.18633 h 15.43278"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.799999;stroke-opacity:1"
+       d="m 200.60349,114.83672 h 15.43278"
+       id="path3-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.799999;stroke-opacity:1"
+       d="m 200.63134,128.97446 h 15.43278"
+       id="path3-2-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.799999;stroke-opacity:1"
+       d="M 95.040235,100.33327 H 110.47301"
+       id="path3-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.799999;stroke-opacity:1"
+       d="M 95.062335,112.98366 H 110.49511"
+       id="path3-2-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.799999;stroke-opacity:1"
+       d="M 95.090185,127.1214 H 110.52296"
+       id="path3-2-9-6" />
+    <g
+       id="g3"
+       transform="translate(-60.276077,-42.411513)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3"
+         width="44.871483"
+         height="13.278292"
+         x="110.34642"
+         y="136.43694" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+         x="117.0402"
+         y="145.58125"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+           x="117.0402"
+           y="145.58125">Canal DDR4</tspan></text>
+    </g>
+    <g
+       id="g4"
+       transform="translate(-60.265767,-29.110635)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4"
+         width="44.871483"
+         height="13.278292"
+         x="110.34642"
+         y="136.43694" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+         x="117.0402"
+         y="145.58125"
+         id="text4"><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+           x="117.0402"
+           y="145.58125">Canal DDR4</tspan></text>
+    </g>
+    <g
+       id="g5"
+       transform="translate(-60.245487,-15.822183)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5"
+         width="44.871483"
+         height="13.278292"
+         x="110.34642"
+         y="136.43694" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+         x="117.0402"
+         y="145.58125"
+         id="text5"><tspan
+           sodipodi:role="line"
+           id="tspan5"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8"
+           x="117.0402"
+           y="145.58125">Canal DDR4</tspan></text>
+    </g>
+  </g>
+</svg>

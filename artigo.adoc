@@ -43,7 +43,7 @@ Machine” ou BEAM), sobre a qual instruções da linguagem Elixir são executad
 As gerações mais recentes também se destacam pela integração de aceleradores
 de hardware para cargas de trabalho crescentes, especialmente em IA, e um forte foco
 na eficiência energética (desempenho por watt), contribuindo para a redução do custo
-total de propriedade (TCO) em data centers e na borda
+total de propriedade (TCO) em data centers e na borda.
 
 .Família intel xeon scalable
 image::scalable.svg[]
@@ -62,3 +62,109 @@ comunicação oferece uma interface com um canal bidirecional para conectar as
 unidades de processamento e a placa mãe. Conquanto os núcleos contem com seus
 próprios canais de comunicação com a interface, a comunicação com o chipset é
 inerentemente síncrona.
+
+O modelo de comunicação parte a parte serve de suporte para a variedade de
+núcleos Xeon em um único chip, um dos principais diferenciais da família Intel Xeon.
+O número maior de núcleos, aliado à essa arquitetura, oferece maior banda de entrada e
+saída para dispositivos de armazenamento e memória. Apesar de os núcleos Xeon
+acessarem uma memória compartilhada, mesmo com uma maior disponibilidade de
+canais, o modelo QPI e UPI permitem o uso da tecnologia de Acesso Não Uniforme à
+Memória (Non-Uniform Memory Access ou NUMA) [Intel 2022] para dividir a
+memória compartilhada em nós cujo tempo de acesso é favorecido pela proximidade
+com a unidade de processamento (ou grupo de unidades) que gerencia aquele nó. Por
+mitigar uma limitação de sistemas multinúcleos e ser exposta pelo modelo de
+comunicação e pela placa mãe, a NUMA não é uma tecnologia exclusiva da família
+Intel Xeon, estando presente também na família Intel Core.
+
+Recentemente, com a introdução do Intel Advanced Vector Extensions 512
+(AVX-512), os processadores Intel Xeon passaram a suportar operações com vetores de
+512 bits para otimizar operações com inteligência artificial. Essa tecnologia permite
+dobrar a largura dos dados processados por ciclo ao expandir operações de 256 para 512
+bits [Intel 2022], um avanço significativo, principalmente para a computação de alto
+desempenho (HPC) e Inteligência Artificial. Além de “alargar” os vetores, o AVX-512
+introduz um conjunto de instruções mais rico e específico para tarefas como
+criptografia, análise de dados e processamento de mídia.
+
+== Paralelismo e concorrência
+
+O poder de processamento dos núcleos Intel Xeon e a baixa latência do acesso à
+memória permitem o processamento de um alto número de dados de entrada e saída em
+paralelo. Essa vantagem faz com que a família de processadores seja útil para uso em
+servidores web, que precisam receber, tratar e despachar várias requisições HTTP com o
+mínimo de latência possível para oferecer uma experiência fluida ao usuário. Nesse
+sentido, o paralelismo otimiza tanto o diálogo entre cliente e servidor quanto a entrada e
+saída no ambiente do servidor, como, por exemplo, pelo acesso ao banco de dados por
+diferentes processos ou threads em simultâneo.
+
+Diferentes servidores web exploram o multiprocessamento simétrico de formas
+variadas. O Phoenix, servidor escrito na linguagem Elixir, distribui as pipelines vindas
+de requisições HTTP em processos da BEAM, que são disctribuídos para agendadores
+(schedulers). Um agendador da BEAM controla o fluxo de execução das threads sob sua
+responsabilidade e a comunicação interna e externa. A BEAM designa um agendador
+para cada núcleo de processamento disponível, de modo que a plataforma Xeon permite
+a execução de vários agendadores em paralelo [Gonçalves, 2021]
+
+A maior disponibilidade de núcleos também beneficia o ambiente de execução
+Java, mas, ao contrário da BEAM, onde apenas os agendadores, e não os processos, são
+threads do sistema operacional, a Máquina Virtual do Java (JVM) invoca threads a
+partir de chamadas ao sistema, o que significa maior latência de resposta e menor
+escalabilidade. Nesses casos, o ponto de otimização reside na execução prolongada de
+microserviços em processos distintos que se comunicam entre si por meio de estruturas
+como soquetes ou comunicação HTTP interna. Assim, é possível instruir manualmente
+o sistema operacional a designar cada serviço para um núcleo, permitindo entrada,
+processamento e despache simultâneo de mensagens entre processos. O diagrama a
+seguir apresenta um sistema monolítico de vendas pela internet, onde o servidor
+principal expõe apenas o processo de interface ao cliente. A comunicação da interface
+com a backend central e as comunicações com processos controladores de bancos de
+dados é feita por meio de mecanismos de comunicação interprocesso. Cada um dos 8
+processos principais que compõe o sistema é designado a um ou mais núcleos,
+dependendo da demanda pelo serviço oferecido pelo processo.
+
+.Exemplo de distribuição manual de núcleos em um sistema de vendas pela internet.
+image::e commerce cores.svg[]
+
+No entanto, é preferível automatizar a gestão das capacidades em recursos de
+processamento e memória dos Intel Xeon por meio de Kubernetes e Docker. Docker é
+uma ferramenta de código aberto usada para desenvolver contâineres, melhorando a
+modularização de sistemas [Aguiar e Lima, 2023] e facilitando a alocação de recursos,
+que pode ser delegada ao Kubernetes, o que é bastante útil para o ambiente do Intel
+Xeon, que oferece uma gama substancial de recursos para serem geridos.
+
+O uso do Kubernetes para gerenciar imagens Docker oferece a opção de definir
+valores máximos e mínimos para recursos usados pelo contâiner, como número de
+núcleos e tamanho de memória [Kubernetes, 2025]. Isso permite atribuir elasticidade ao
+sistema para lidar com picos de demanda, uma necessidade de servidores web.
+
+== Conclusão
+
+A família de processadores Intel Xeon evoluiu no oferecimento de uma
+plataforma para otimizar execução paralela. A forma de aproveitamento desses recursos
+é mais explorada por ambientes de execução concorrente projetados para sistemas
+multinúcleo, como é o caso da BEAM. Ainda assim, o benefício pode ser extendido de
+forma geral pela utilização de tecnologias de modularização como o Docker aliado ao
+gerenciamento de recursos flexível do Kubernetes, para atender às demandas dinâmicas
+modernas.
+
+:sectnums!:
+
+== Referências
+
+Aguiar, M. S. e Lima, G. L., (2023), Uma arquitetura baseada em Docker para Sistemas
+Multiagentes Abertos. XVII Workshop-Escola de Sistemas de Agentes, seus
+Ambientes e Aplicações.
+
+Gonçalvez, M. M., (2021). Microsserviços com Elixir + Erlang/OTP — BEAM.
+https://medium.com/@marcelomg21/microsservi%C3%A7os-com-elixir-erlang-otp-
+beam-b76a5fb3bef. Acesso em 9 de setembro de 2025.
+
+Intel® Xeon® Processor Scalable Family Technical Overview. (2022). Intel.
+https://www.intel.com/content/www/us/en/developer/articles/technical/xeon-
+processor-scalable-family-technical-overview.html.
+
+Lundin, R. (2020). Unique Intel Features Available with ThinkSystem SR850 V2 and
+SR860 V2. https://lenovopress.lenovo.com/lp1366-unique-intel-features-available-
+with-sr850-v2-sr860-v2.
+
+Resource management for pods and containers. Kubernetes.
+https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/.
+Acesso em: 9 de setembro de 2025.
